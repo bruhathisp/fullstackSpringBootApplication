@@ -12,10 +12,9 @@ In a "stateful" application, the server retains information about each user's se
 
 In contrast, a "stateless" application does not store any session information on the server. Each request stands on its own, and the server treats each request as independent of any previous ones. The client (frontend) is responsible for including all necessary information in the request to the server.
 
-** In a stateful application, the backend knows that the request comes from the same user,
-and can fetch the user's history. In a stateless application, the backend knows nothing but what is sent at each request.
-If I want a state of the user, a history of the user, I must send it in the request. 
-**
+**In a stateful application, the backend knows that the request comes from the same user, and can fetch the user's history. In a stateless application, the backend knows nothing but what is sent at each request.
+If I want a state of the user, a history of the user, I must send it in the request.**
+
 3. Advantages of Stateless Tokens:
 Using stateless tokens offers several advantages:
 
